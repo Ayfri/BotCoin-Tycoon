@@ -13,5 +13,14 @@
   "bugs": {
     "url": "https://github.com/Ayfri/BotCoin-Tycoon/issues"
   },
-  "homepage": "https://github.com/Ayfri/BotCoin-Tycoon#readme"
+  "homepage": "https://github.com/Ayfri/BotCoin-Tycoon#readme",
+  "dependencies": {
+    "advanced-command-handler": "^2.2.2",
+    "discord.js": "^12.5.1",
+    "josh": "^1.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
 }
