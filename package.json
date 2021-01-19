@@ -1,0 +1,17 @@
+{
+  "name": "botcoin-tycoon",
+  "version": "1.0.0",
+  "description": "A little fun bot that I made.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayfri/BotCoin-Tycoon.git"
+  },
+  "keywords": [],
+  "author": "Ayfri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayfri/BotCoin-Tycoon/issues"
+  },
+  "homepage": "https://github.com/Ayfri/BotCoin-Tycoon#readme"
+}
