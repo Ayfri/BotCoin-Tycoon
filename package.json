@@ -6,6 +6,7 @@
   "dependencies": {
     "advanced-command-handler": "^2.2.2",
     "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
     "josh": "^1.1.0"
   },
   "description": "A little fun bot that I made.",
