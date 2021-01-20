@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/Ayfri/BotCoin-Tycoon#readme",
   "license": "ISC",
-  "main": "index.js",
+  "main": "./dist/main.js",
   "name": "botcoin-tycoon",
   "prettier": {
     "arrowParens": "avoid",
