@@ -30,7 +30,9 @@
     "url": "git+https://github.com/Ayfri/BotCoin-Tycoon.git"
   },
   "scripts": {
-    "prettier": "prettier package.json README.md src --write"
+    "build": "npm run prettier && tsc",
+    "prettier": "prettier package.json README.md src --write",
+    "start": "tsc && node ."
   },
   "version": "1.0.0"
 }
