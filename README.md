@@ -1,2 +1,3 @@
 # BotCoin-Tycoon
-A little fun bot that I made. 
+
+A little fun bot that I made.
