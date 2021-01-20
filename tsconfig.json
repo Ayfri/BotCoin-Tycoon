@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"alwaysStrict": true,
+		"esModuleInterop": true,
 		"lib": [
 			"es2020",
 			"dom"
