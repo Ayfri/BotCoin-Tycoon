@@ -1,5 +1,7 @@
 import {CommandHandler} from 'advanced-command-handler';
 import {config} from 'dotenv';
+import Enmap from 'enmap';
+import {User} from './types.js';
 
 config();
 
@@ -13,3 +15,13 @@ CommandHandler.create({
 	.launch({
 		token: process.env.TOKEN,
 	});
+
+export const DB = new Enmap<string, User>({
+	autoFetch: true,
+	fetchAll: true,
+	name: 'money'
+})
+
+CommandHandler.on('create', async () => {
+	await DB.defer;
+});
