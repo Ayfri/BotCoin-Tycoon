@@ -8,7 +8,8 @@
 		"@joshdb/sqlite": "^1.1.3",
 		"advanced-command-handler": "^2.2.2",
 		"discord.js": "^12.5.1",
-		"dotenv": "^8.2.0"
+		"dotenv": "^8.2.0",
+		"enmap": "^5.8.4"
 	},
 	"description": "A little fun bot that I made.",
 	"devDependencies": {
