@@ -2,7 +2,7 @@ import {CommandHandler} from 'advanced-command-handler';
 import {Snowflake} from 'discord.js';
 import {config} from 'dotenv';
 import Enmap from 'enmap';
-import {User} from './src/types.js';
+import {User} from './types.js';
 
 config();
 
