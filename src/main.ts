@@ -1,22 +1,22 @@
 import {CommandHandler} from 'advanced-command-handler';
+import {Snowflake} from 'discord.js';
 import {config} from 'dotenv';
 import Enmap from 'enmap';
-import {User} from './types.js';
+import {User} from './src/types.js';
 
 config();
 
 CommandHandler.create({
-	eventsDir: 'events',
+	eventsDir: 'dist/events',
 	owners: ['386893236498857985'],
 	prefixes: ['$'],
-	commandsDir: 'commands',
+	commandsDir: 'dist/commands',
 })
-	.setDefaultEvents()
 	.launch({
 		token: process.env.TOKEN,
 	});
 
-export const DB = new Enmap<string, User>({
+export const DB = new Enmap<Snowflake, User>({
 	autoFetch: true,
 	fetchAll: true,
 	name: 'money'
